@@ -23,5 +23,6 @@ function onRequest(request, response){
    }
 }
 
+//Listen to request on port 8080
 http.createServer(onRequest).listen(8080);
 console.log("Server is now running.");
